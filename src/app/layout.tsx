@@ -8,6 +8,7 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import SkipToContent from "@/components/accessibility/SkipToContent";
 import { cn } from "@/lib/utils";
+import { getOrganizationSchema, getWebSiteSchema } from "@/lib/schema";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -84,6 +85,20 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning className="overflow-x-hidden">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getOrganizationSchema()),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getWebSiteSchema()),
+          }}
+        />
+      </head>
       <body
         className={cn(
           "font-body antialiased min-h-screen flex flex-col",

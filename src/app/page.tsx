@@ -1,12 +1,15 @@
 import Link from "next/link";
 import { ArrowRight, Shield, Users, TrendingUp, Award, BookOpen, DollarSign, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { providers } from "@/data/providers";
+import { getCourseSchema, getHowToSchema } from "@/lib/schema";
 
+// Real, verifiable stats only
 const stats = [
-  { value: "95+", label: "RTOs Compared" },
-  { value: "100%", label: "Transparent" },
-  { value: "50K+", label: "Brokers Helped" },
-  { value: "A+", label: "Trust Rating" },
+  { value: `${providers.length}`, label: "RTOs Compared" },
+  { value: "100%", label: "Independent" },
+  { value: "12", label: "Core Units" },
+  { value: "2026", label: "Current Standard" },
 ];
 
 const features = [
@@ -37,6 +40,20 @@ const coreModules = [
 export default function HomePage() {
   return (
     <>
+      {/* Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getCourseSchema()),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getHowToSchema()),
+        }}
+      />
+
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 bg-gradient-to-b from-brand-50 to-white">
         <div className="container mx-auto px-4">
