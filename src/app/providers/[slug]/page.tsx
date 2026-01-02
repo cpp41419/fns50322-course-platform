@@ -19,6 +19,7 @@ import { Button } from "@/components/ui/button";
 import { providers, getProviderBySlug } from "@/data/providers";
 import { formatCurrency } from "@/lib/utils";
 import { getProviderSchema, getBreadcrumbSchema } from "@/lib/schema";
+import { ASQAVerifiedBadge, LastUpdatedBadge, DataSourceBadge } from "@/components/trust/TrustSignals";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -119,6 +120,13 @@ export default async function ProviderPage({ params }: PageProps) {
                         <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
                         {provider.rating} ({provider.reviews} reviews)
                       </span>
+                    </div>
+                    <div className="flex items-center gap-3 mt-2">
+                      <ASQAVerifiedBadge
+                        rtoCode={provider.asqaRegistration.rtoCode}
+                        status={provider.asqaRegistration.registrationStatus}
+                      />
+                      <LastUpdatedBadge />
                     </div>
                   </div>
                 </div>
@@ -227,6 +235,9 @@ export default async function ProviderPage({ params }: PageProps) {
               <div className="text-3xl font-bold text-brand-700">{provider.founded}</div>
               <div className="text-sm text-slate-500">Est.</div>
             </div>
+          </div>
+          <div className="mt-4 text-center">
+            <DataSourceBadge />
           </div>
         </div>
       </section>

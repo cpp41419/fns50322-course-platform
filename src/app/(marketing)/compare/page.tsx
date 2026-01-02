@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { providers } from "@/data/providers";
 import { formatCurrency } from "@/lib/utils";
 import { getProviderListSchema, getBreadcrumbSchema, getAggregateReviewSchema } from "@/lib/schema";
+import { ASQAVerifiedBadge, LastUpdatedBadge } from "@/components/trust/TrustSignals";
 
 export const metadata: Metadata = {
   title: "Compare FNS50322 RTOs | Side-by-Side Comparison",
@@ -74,9 +75,12 @@ export default function ComparePage() {
                 VET Loan Eligible
               </span>
             </div>
-            <p className="text-sm text-slate-500">
-              Showing {providers.length} providers sorted by rating
-            </p>
+            <div className="flex items-center gap-4">
+              <p className="text-sm text-slate-500">
+                Showing {providers.length} providers sorted by rating
+              </p>
+              <LastUpdatedBadge />
+            </div>
           </div>
         </div>
       </section>
@@ -124,6 +128,13 @@ export default function ComparePage() {
                               <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
                               {provider.rating} ({provider.reviews} reviews)
                             </span>
+                          </div>
+                          <div className="mt-1">
+                            <ASQAVerifiedBadge
+                              rtoCode={provider.asqaRegistration.rtoCode}
+                              status={provider.asqaRegistration.registrationStatus}
+                              compact
+                            />
                           </div>
                         </div>
                       </div>

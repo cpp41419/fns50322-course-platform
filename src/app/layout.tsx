@@ -7,6 +7,7 @@ import { Toaster } from "sonner";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import SkipToContent from "@/components/accessibility/SkipToContent";
+import { TrustBar } from "@/components/trust/TrustSignals";
 import { cn } from "@/lib/utils";
 import { getOrganizationSchema, getWebSiteSchema } from "@/lib/schema";
 
@@ -109,6 +110,7 @@ export default function RootLayout({
       >
         <SkipToContent />
         <Header />
+        <TrustBar />
         <main id="main-content" className="flex-grow overflow-x-hidden">
           {children}
         </main>
