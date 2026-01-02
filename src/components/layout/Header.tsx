@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 const navLinks = [
   { href: "/compare", label: "Compare RTOs" },
-  { href: "/modules", label: "Units" },
+  { href: "/licensing", label: "Licensing" },
   { href: "/compliance", label: "ASQA Guide" },
   { href: "/quiz", label: "Course Finder" },
   { href: "/blog", label: "Blog" },
