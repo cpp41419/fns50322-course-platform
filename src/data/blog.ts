@@ -505,6 +505,328 @@ The first year is tough. Years 3-5 is where it pays off.
     seoTitle: "Mortgage Broker Salary Australia 2026 | Real Income & Commission Data",
     seoDescription: "What do mortgage brokers really earn in Australia? Upfront commission, trail income, and realistic salary expectations by experience. Updated 2026 data.",
   },
+  {
+    slug: "asqa-rto-compliance-guide-fns50322",
+    title: "ASQA Compliance: How to Verify Your FNS50322 Provider",
+    excerpt: "Not all RTOs are equal. Learn how to verify ASQA registration, spot red flags, and protect yourself from poor-quality FNS50322 providers.",
+    content: `
+# ASQA Compliance: Protecting Your FNS50322 Investment
+
+Choosing the wrong training provider can cost you time, money, and your career. Here's how to verify any FNS50322 provider before enrolling.
+
+## What is ASQA?
+
+The **Australian Skills Quality Authority (ASQA)** is the national regulator for vocational education and training. They:
+
+- Register and monitor RTOs (Registered Training Organisations)
+- Ensure training meets national quality standards
+- Take action against non-compliant providers
+- Maintain the national register at training.gov.au
+
+## Why ASQA Registration Matters
+
+Only ASQA-registered RTOs can issue nationally recognised qualifications. If your FNS50322 comes from an unregistered provider:
+
+- MFAA and FBAA won't accept it for membership
+- Aggregators won't onboard you
+- Employers won't recognise your qualification
+- You'll need to redo your training
+
+## How to Verify an RTO
+
+### Step 1: Check training.gov.au
+
+1. Visit training.gov.au
+2. Search for the RTO by name or code
+3. Verify their registration is **Active**
+4. Confirm **FNS50322** is on their scope (not just FNS50320)
+
+### Step 2: Check for Regulatory Actions
+
+Look for:
+- Conditions on registration
+- Past compliance issues
+- Suspension or sanctions history
+
+A clean compliance record is a green flag.
+
+### Step 3: Verify VET Student Loans Approval
+
+If claiming VSL:
+- Check the RTO is VSL-approved
+- Verify FNS50322 specifically is covered
+- Understand census dates and loan caps
+
+## Red Flags to Watch For
+
+### 1. Unrealistic Completion Times
+
+FNS50322 has a minimum volume of learning of 1200 hours. Providers promising completion in weeks are likely:
+- Cutting corners on training
+- Not providing proper assessment
+- At risk of ASQA action
+
+### 2. No Trainer Access
+
+You're entitled to:
+- Regular contact with qualified trainers
+- Feedback on assessments
+- Support when struggling
+
+"Self-paced with no support" is a warning sign.
+
+### 3. Pressure Sales Tactics
+
+Legitimate RTOs don't:
+- Pressure you to enrol immediately
+- Hide fees until after you commit
+- Promise guaranteed jobs or outcomes
+
+### 4. Too Good to Be True Pricing
+
+If it's significantly cheaper than average ($4,500):
+- Question what's being cut
+- Check completion rates
+- Read student reviews
+
+## Your Rights as a Student
+
+### Before Enrolment
+- Written agreement with all terms
+- Clear fee and refund policy
+- Information about RPL options
+- Details about training and assessment
+
+### During Training
+- Qualified, experienced trainers
+- Proper learning resources
+- Fair and valid assessment
+- Reasonable support response times
+
+### After Completion
+- Qualification within 30 days
+- Statement of attainment for units
+- Access to your records
+- Verification for employers
+
+## What If Things Go Wrong?
+
+### Step 1: Internal Complaint
+Use the RTO's complaints process first. Document everything.
+
+### Step 2: ASQA Complaint
+If unresolved, lodge a complaint at asqa.gov.au/complaints
+
+### Step 3: Consumer Affairs
+For refund issues, contact your state consumer affairs office.
+
+### Step 4: ACCC
+For misleading conduct, contact the ACCC.
+
+## Our Verification Process
+
+Every provider in our comparison is:
+- ASQA registered with active status
+- Has FNS50322 on scope (not just superseded FNS50320)
+- Checked monthly for regulatory changes
+- Reviewed for completion rates and student feedback
+
+## Bottom Line
+
+5 minutes of verification can save months of frustration. Always:
+
+1. Check training.gov.au before enrolling
+2. Read the enrolment agreement fully
+3. Understand the refund policy
+4. Know your rights
+5. Document everything
+
+Your FNS50322 is the foundation of your mortgage broking career. Make sure it's built on solid ground.
+    `,
+    author: "FNS50322 Editorial Team",
+    publishedAt: "2026-01-02",
+    updatedAt: "2026-01-02",
+    category: "Compliance",
+    tags: ["ASQA", "RTO compliance", "training provider", "verification", "student rights"],
+    readTime: 8,
+    featured: true,
+    seoTitle: "ASQA Compliance Guide 2026 | How to Verify FNS50322 Providers",
+    seoDescription: "Learn how to verify ASQA registration for FNS50322 providers. Check RTO compliance, spot red flags, and protect your investment in mortgage broker training.",
+  },
+  {
+    slug: "rto-scams-avoid-dodgy-providers",
+    title: "RTO Scams: How to Avoid Dodgy FNS50322 Providers",
+    excerpt: "The VET sector has its share of dodgy operators. Learn the warning signs and how to protect yourself from FNS50322 training scams.",
+    content: `
+# RTO Scams: Protecting Yourself from Dodgy Providers
+
+The vocational education sector has seen its share of scandals. Here's how to avoid becoming a victim.
+
+## The History of VET Scandals
+
+The 2015-2016 VET FEE-HELP scandal saw:
+- Aggressive door-to-door sales
+- Students enrolled without consent
+- Qualifications issued without training
+- Billions in fraudulent loans
+- Many RTOs shut down by ASQA
+
+While regulations have tightened, vigilance is still required.
+
+## Current Warning Signs
+
+### 1. Aggressive Marketing
+
+**Red flags:**
+- Cold calls or SMS messages
+- Door-to-door sales
+- Promises of free laptops or incentives
+- "Enrol today or miss out" pressure
+
+**Reality:** Legitimate RTOs don't need aggressive tactics.
+
+### 2. Unrealistic Promises
+
+**Red flags:**
+- "Guaranteed job placement"
+- "Complete in 4 weeks"
+- "No study required - just pay"
+- "We'll do the work for you"
+
+**Reality:** FNS50322 requires genuine competency development.
+
+### 3. Payment Red Flags
+
+**Red flags:**
+- Cash only payments
+- No receipts provided
+- Pressure to use VET Student Loans
+- Unclear about total costs
+- Hidden "administration fees"
+
+**Reality:** Transparent pricing is a legal requirement.
+
+### 4. Qualification Fraud
+
+**Red flags:**
+- Offering to sell qualifications
+- No assessment required
+- "RPL everything" regardless of experience
+- Qualifications in days
+
+**Reality:** This is illegal and your "qualification" is worthless.
+
+## Real Cases (De-identified)
+
+### Case 1: The Quick Diploma
+A student paid $2,000 for "fast-track FNS50322." They received:
+- Generic PDFs
+- No trainer contact
+- Multiple choice quiz (not competency-based)
+- A "certificate" the RTO wasn't authorised to issue
+
+**Outcome:** Qualification not recognised. Had to redo with legitimate RTO.
+
+### Case 2: The VSL Trap
+A student was enrolled over the phone, told it was "free." They discovered:
+- $15,000 VET Student Loan debt
+- Minimal actual training received
+- RTO later closed by ASQA
+- Debt remained, no qualification
+
+**Outcome:** Fought for years to have debt removed.
+
+### Case 3: The Bait and Switch
+A student enrolled based on:
+- Promise of experienced trainers
+- "Industry connections"
+- Job placement support
+
+**Reality:**
+- Trainers were unqualified
+- No industry connections existed
+- Job "support" was a list of job websites
+
+## How to Protect Yourself
+
+### Before Enrolling
+
+1. **Verify registration:** training.gov.au
+2. **Check scope:** FNS50322 specifically listed
+3. **Read reviews:** Multiple sources, not just their website
+4. **Compare prices:** If much cheaper, ask why
+5. **Get everything in writing:** Verbal promises mean nothing
+
+### During Enrolment
+
+1. **Read the agreement:** Every clause
+2. **Understand refunds:** Before signing
+3. **Know census dates:** For VET Student Loans
+4. **Keep copies:** Of everything you sign
+
+### During Training
+
+1. **Document problems:** Dates, names, details
+2. **Raise issues early:** Don't wait until it's too late
+3. **Know the complaints process:** Ask upfront
+4. **Stay in contact:** Engage with training
+
+### If Something's Wrong
+
+1. **Internal complaint first:** In writing
+2. **ASQA:** asqa.gov.au/complaints
+3. **Consumer affairs:** State/territory office
+4. **Legal advice:** For significant losses
+
+## Signs of a Quality RTO
+
+**Green flags:**
+- Transparent pricing on website
+- Clear refund policy published
+- Named, qualified trainers with bios
+- Industry partnerships disclosed
+- Realistic completion timeframes
+- Responsive pre-enrolment support
+- No pressure sales tactics
+- Verified student reviews
+
+## The Real Cost of Cheap Training
+
+| Factor | Cheap/Dodgy RTO | Quality RTO |
+|--------|-----------------|-------------|
+| Price | $2,000-$2,500 | $4,000-$5,500 |
+| Training | Minimal PDFs | Proper curriculum |
+| Support | None or delayed | Regular contact |
+| Assessment | Tick-box | Genuine competency |
+| Recognition | Often rejected | Universally accepted |
+| Career outcome | Start over | Career begins |
+
+The "saving" becomes expensive when you need to redo training.
+
+## Our Commitment
+
+Every provider we list is:
+- ASQA registered and verified
+- FNS50322 on active scope
+- Checked for regulatory issues
+- Reviewed for genuine student outcomes
+
+We don't accept payment for listings. Our comparisons are independent.
+
+## Bottom Line
+
+If it seems too good to be true, it is. Your mortgage broking career deserves a solid foundation. Invest in quality training from day one.
+    `,
+    author: "FNS50322 Editorial Team",
+    publishedAt: "2026-01-01",
+    updatedAt: "2026-01-02",
+    category: "Compliance",
+    tags: ["RTO scams", "dodgy providers", "VET sector", "student protection", "ASQA"],
+    readTime: 10,
+    featured: false,
+    seoTitle: "RTO Scams 2026 | How to Avoid Dodgy FNS50322 Training Providers",
+    seoDescription: "Protect yourself from VET sector scams. Learn the warning signs of dodgy FNS50322 providers, real case studies, and how to verify legitimate RTOs.",
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

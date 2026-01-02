@@ -20,6 +20,18 @@ export interface PricingOption {
   duration?: string;
 }
 
+export interface ASQARegistration {
+  rtoCode: string;
+  rtoName: string;
+  registrationStatus: 'Active' | 'Suspended' | 'Cancelled' | 'Lapsed';
+  registrationExpiry: string;
+  scopeStatus: 'Current' | 'Transitioning' | 'Removed';
+  hasConditions: boolean;
+  conditions?: string[];
+  lastAudit?: string;
+  trainingGovUrl: string;
+}
+
 export interface Provider {
   id: string;
   name: string;
@@ -52,6 +64,7 @@ export interface Provider {
   studentsGraduated: number;
   featured?: boolean;
   verified?: boolean;
+  asqaRegistration: ASQARegistration;
 }
 
 export interface CourseModule {

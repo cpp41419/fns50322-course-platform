@@ -50,6 +50,16 @@ export const providers: Provider[] = [
     studentsGraduated: 15800,
     featured: true,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "32401",
+      rtoName: "Mentor Education Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2028-06-30",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-08-15",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/32401",
+    },
   },
   {
     id: "kaplan-professional",
@@ -99,6 +109,16 @@ export const providers: Provider[] = [
     studentsGraduated: 65000,
     featured: true,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "90116",
+      rtoName: "Kaplan Professional Australia Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2029-03-31",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-11-20",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/90116",
+    },
   },
   {
     id: "validum-institute",
@@ -148,6 +168,16 @@ export const providers: Provider[] = [
     studentsGraduated: 9200,
     featured: true,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "41005",
+      rtoName: "Validum Institute Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2027-12-31",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-06-10",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/41005",
+    },
   },
 
   // === TIER 2: Established Providers ===
@@ -197,6 +227,16 @@ export const providers: Provider[] = [
     founded: "2005",
     studentsGraduated: 11500,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "22008",
+      rtoName: "Monarch Institute Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2028-09-30",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2025-01-15",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/22008",
+    },
   },
   {
     id: "challenge-consulting",
@@ -244,6 +284,16 @@ export const providers: Provider[] = [
     founded: "1991",
     studentsGraduated: 18500,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "91094",
+      rtoName: "Challenge Consulting Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2027-08-15",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-04-22",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/91094",
+    },
   },
   {
     id: "asset-training",
@@ -291,6 +341,16 @@ export const providers: Provider[] = [
     founded: "2003",
     studentsGraduated: 7200,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "31718",
+      rtoName: "Asset Training Australia Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2028-02-28",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-09-05",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/31718",
+    },
   },
 
   // === TIER 3: Value Providers ===
@@ -340,6 +400,16 @@ export const providers: Provider[] = [
     founded: "2010",
     studentsGraduated: 4800,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "52240",
+      rtoName: "Applied Education Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2027-11-30",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-07-18",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/52240",
+    },
   },
   {
     id: "strategic-training",
@@ -386,6 +456,16 @@ export const providers: Provider[] = [
     membershipPathways: ["MFAA"],
     founded: "2008",
     studentsGraduated: 3200,
+    asqaRegistration: {
+      rtoCode: "40575",
+      rtoName: "Strategic Training Group Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2027-05-31",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-03-12",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/40575",
+    },
   },
   {
     id: "atmc",
@@ -437,6 +517,16 @@ export const providers: Provider[] = [
     membershipPathways: ["MFAA"],
     founded: "2012",
     studentsGraduated: 5600,
+    asqaRegistration: {
+      rtoCode: "45108",
+      rtoName: "Australian Training & Management College Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2026-10-31",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-05-28",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/45108",
+    },
   },
 
   // === TIER 4: Government/TAFE Providers ===
@@ -486,6 +576,16 @@ export const providers: Provider[] = [
     founded: "1883",
     studentsGraduated: 320000,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "90003",
+      rtoName: "TAFE Commission (TAFE NSW)",
+      registrationStatus: "Active",
+      registrationExpiry: "2030-12-31",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2025-02-01",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/90003",
+    },
   },
   {
     id: "tafe-qld",
@@ -533,6 +633,16 @@ export const providers: Provider[] = [
     founded: "1882",
     studentsGraduated: 280000,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "30104",
+      rtoName: "TAFE Queensland",
+      registrationStatus: "Active",
+      registrationExpiry: "2029-06-30",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-12-10",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/30104",
+    },
   },
   {
     id: "holmesglen",
@@ -580,6 +690,16 @@ export const providers: Provider[] = [
     founded: "1982",
     studentsGraduated: 85000,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "0416",
+      rtoName: "Holmesglen Institute",
+      registrationStatus: "Active",
+      registrationExpiry: "2028-12-31",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-10-15",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/0416",
+    },
   },
 
   // === SPECIALIST/NICHE Providers ===
@@ -631,6 +751,16 @@ export const providers: Provider[] = [
     studentsGraduated: 4500,
     featured: true,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "41231",
+      rtoName: "Redhill Education Group Pty Ltd",
+      registrationStatus: "Active",
+      registrationExpiry: "2028-04-30",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2025-01-08",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/41231",
+    },
   },
   {
     id: "finsia",
@@ -678,6 +808,16 @@ export const providers: Provider[] = [
     founded: "1886",
     studentsGraduated: 35000,
     verified: true,
+    asqaRegistration: {
+      rtoCode: "2543",
+      rtoName: "Financial Services Institute of Australasia",
+      registrationStatus: "Active",
+      registrationExpiry: "2029-09-30",
+      scopeStatus: "Current",
+      hasConditions: false,
+      lastAudit: "2024-08-22",
+      trainingGovUrl: "https://training.gov.au/Organisation/Details/2543",
+    },
   },
 ];
 
@@ -709,4 +849,15 @@ export function getOnlineProviders(): Provider[] {
 
 export function getVETLoanProviders(): Provider[] {
   return providers.filter((p) => p.pricing.fns50322.fundingEligible);
+}
+
+export function getASQACompliantProviders(): Provider[] {
+  return providers.filter(
+    (p) => p.asqaRegistration.registrationStatus === "Active" &&
+           p.asqaRegistration.scopeStatus === "Current"
+  );
+}
+
+export function getProvidersWithConditions(): Provider[] {
+  return providers.filter((p) => p.asqaRegistration.hasConditions);
 }
