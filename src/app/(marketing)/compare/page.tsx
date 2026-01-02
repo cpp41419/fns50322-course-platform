@@ -4,6 +4,7 @@ import { Shield, Star, MapPin, Clock, CheckCircle, ExternalLink, TrendingUp, Use
 import { Button } from "@/components/ui/button";
 import { providers } from "@/data/providers";
 import { formatCurrency } from "@/lib/utils";
+import { getProviderListSchema, getBreadcrumbSchema, getAggregateReviewSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Compare FNS50322 RTOs | Side-by-Side Comparison",
@@ -16,6 +17,29 @@ export default function ComparePage() {
 
   return (
     <>
+      {/* Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getProviderListSchema(providers)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getAggregateReviewSchema(providers)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getBreadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Compare Providers", url: "/compare" },
+          ])),
+        }}
+      />
+
       {/* Hero */}
       <section className="py-12 bg-gradient-to-b from-brand-50 to-white">
         <div className="container mx-auto px-4">

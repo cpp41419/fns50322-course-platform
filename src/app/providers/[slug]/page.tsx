@@ -18,6 +18,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { providers, getProviderBySlug } from "@/data/providers";
 import { formatCurrency } from "@/lib/utils";
+import { getProviderSchema, getBreadcrumbSchema } from "@/lib/schema";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -58,6 +59,24 @@ export default async function ProviderPage({ params }: PageProps) {
 
   return (
     <>
+      {/* Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getProviderSchema(provider)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getBreadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Compare Providers", url: "/compare" },
+            { name: provider.name, url: `/providers/${provider.slug}` },
+          ])),
+        }}
+      />
+
       {/* Back Link */}
       <div className="bg-slate-50 border-b border-slate-200">
         <div className="container mx-auto px-4 py-3">
