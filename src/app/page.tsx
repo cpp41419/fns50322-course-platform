@@ -79,10 +79,10 @@ export default function HomePage() {
               and MFAA/FBAA pathway information.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="bg-brand-700 hover:bg-brand-600">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '200ms' }}>
+              <Button asChild size="lg" className="bg-brand-700 hover:bg-brand-600 group">
                 <Link href="/quiz">
-                  Find My Course <ArrowRight className="ml-2 w-5 h-5" />
+                  Find My Course <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg">
@@ -101,8 +101,12 @@ export default function HomePage() {
       <section className="py-12 bg-white border-y border-slate-200">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {stats.map((stat) => (
-              <div key={stat.label}>
+            {stats.map((stat, index) => (
+              <div
+                key={stat.label}
+                className="animate-fade-in-up hover-scale"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
                 <div className="text-3xl font-bold text-brand-700">{stat.value}</div>
                 <div className="text-sm text-slate-500">{stat.label}</div>
               </div>
@@ -124,13 +128,14 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {features.map((feature) => (
+            {features.map((feature, index) => (
               <div
                 key={feature.title}
-                className="bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow"
+                className="bg-white rounded-xl p-6 shadow-sm border border-slate-200 hover-lift hover-glow group"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center mb-4">
-                  <feature.icon className="w-6 h-6 text-brand-700" />
+                <div className="w-12 h-12 bg-brand-100 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <feature.icon className="w-6 h-6 text-brand-700 group-hover:text-brand-600 transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-brand-900 mb-2">
                   {feature.title}
@@ -199,12 +204,13 @@ export default function HomePage() {
               { title: "Mortgage Broker", salary: "$85K - $250K+", icon: DollarSign },
               { title: "Credit Analyst", salary: "$70K - $120K", icon: TrendingUp },
               { title: "Lending Manager", salary: "$90K - $150K", icon: Award },
-            ].map((career) => (
+            ].map((career, index) => (
               <div
                 key={career.title}
-                className="bg-white rounded-xl p-6 text-center border border-slate-200"
+                className="bg-white rounded-xl p-6 text-center border border-slate-200 hover-lift group"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:bg-brand-200 transition-all duration-300">
                   <career.icon className="w-6 h-6 text-brand-700" />
                 </div>
                 <h3 className="font-semibold text-brand-900 mb-2">{career.title}</h3>
@@ -225,9 +231,9 @@ export default function HomePage() {
             Take our 2-minute quiz and get matched with FNS50322 providers that fit your budget,
             timeline, and learning style.
           </p>
-          <Button asChild size="lg" className="bg-golden text-brand-900 hover:bg-yellow-400">
+          <Button asChild size="lg" className="bg-golden text-brand-900 hover:bg-yellow-400 group">
             <Link href="/quiz">
-              Start Free Quiz <ArrowRight className="ml-2 w-5 h-5" />
+              Start Free Quiz <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>
         </div>

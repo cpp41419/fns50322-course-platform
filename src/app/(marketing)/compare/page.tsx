@@ -94,7 +94,8 @@ export default function ComparePage() {
                 key={provider.id}
                 className={`bg-white rounded-xl border ${
                   provider.featured ? "border-brand-300 ring-2 ring-brand-100" : "border-slate-200"
-                } overflow-hidden hover:shadow-lg transition-shadow`}
+                } overflow-hidden hover-lift hover-glow`}
+                style={{ animationDelay: `${index * 50}ms` }}
               >
                 {provider.featured && (
                   <div className="bg-brand-700 text-white text-center py-1 text-sm font-medium">

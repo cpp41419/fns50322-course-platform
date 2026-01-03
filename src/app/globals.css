@@ -80,3 +80,102 @@
     touch-action: manipulation;
   }
 }
+
+/* Microanimation utility classes */
+@layer utilities {
+  /* Card hover lift effect */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+  .hover-lift:hover {
+    @apply -translate-y-1 shadow-lg;
+  }
+
+  /* Button press effect */
+  .press-effect {
+    @apply transition-transform duration-150 ease-out active:scale-[0.98];
+  }
+
+  /* Icon hover animations */
+  .icon-bounce:hover svg {
+    @apply animate-bounce-subtle;
+  }
+  .icon-wiggle:hover svg {
+    @apply animate-wiggle;
+  }
+
+  /* Link underline animation */
+  .link-underline {
+    @apply relative;
+  }
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-current transition-all duration-300 ease-out;
+  }
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+
+  /* Staggered fade-in for lists */
+  .stagger-fade-in > * {
+    @apply opacity-0 animate-fade-in-up;
+  }
+  .stagger-fade-in > *:nth-child(1) { animation-delay: 0ms; }
+  .stagger-fade-in > *:nth-child(2) { animation-delay: 50ms; }
+  .stagger-fade-in > *:nth-child(3) { animation-delay: 100ms; }
+  .stagger-fade-in > *:nth-child(4) { animation-delay: 150ms; }
+  .stagger-fade-in > *:nth-child(5) { animation-delay: 200ms; }
+  .stagger-fade-in > *:nth-child(6) { animation-delay: 250ms; }
+  .stagger-fade-in > *:nth-child(n+7) { animation-delay: 300ms; }
+
+  /* Smooth color transitions */
+  .color-transition {
+    @apply transition-colors duration-200 ease-out;
+  }
+
+  /* Scale on hover */
+  .hover-scale {
+    @apply transition-transform duration-200 ease-out hover:scale-105;
+  }
+
+  /* Glow effect */
+  .hover-glow {
+    @apply transition-shadow duration-300;
+  }
+  .hover-glow:hover {
+    box-shadow: 0 0 20px rgba(4, 120, 87, 0.2);
+  }
+
+  /* Badge pulse */
+  .badge-pulse {
+    @apply relative;
+  }
+  .badge-pulse::before {
+    content: '';
+    @apply absolute inset-0 rounded-full bg-current opacity-0 animate-ping;
+  }
+
+  /* Shimmer loading effect */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+    @apply animate-shimmer;
+  }
+}
+
+/* Global smooth transitions for interactive elements */
+@layer base {
+  a, button, [role="button"], input, select, textarea {
+    @apply transition-all duration-200 ease-out;
+  }
+
+  /* Smooth focus rings */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2 transition-shadow duration-200;
+  }
+}
